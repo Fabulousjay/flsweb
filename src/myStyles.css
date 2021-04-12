@@ -1,0 +1,477 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins&display=swap");
+body {
+  height: 400vh;
+  font-family: "poppins", sans-serif;
+}
+.preview_header {
+  background-color: #262626;
+  height: 70px;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+}
+.logo {
+  position: relative;
+  left: 500px;
+}
+.envato_logo {
+  position: relative;
+  top: 23px;
+}
+
+.button_hover {
+  position: absolute;
+  left: 20px;
+}
+.button {
+  position: relative;
+  background-color: #82b440;
+  color: #ffffff;
+  width: 100px;
+  height: 35px;
+  top: 17px;
+  border-style: none;
+  border-radius: 5px;
+  left: 700px;
+}
+
+.button:hover {
+  background-color: #76a835;
+}
+
+.logo {
+  position: fixed;
+  left: 30px;
+}
+.wrapper_logo {
+  position: relative;
+  left: -490px;
+  top: 30px;
+}
+
+.envato {
+  position: relative;
+  color: #ffffff;
+  top: 20px;
+  font-size: 20px;
+  font-weight: 500;
+}
+.envato_market {
+  position: relative;
+  color: #82b440;
+  top: 20px;
+  font-size: 20px;
+}
+p.para1 {
+  position: relative;
+  left: 40px;
+}
+
+p.para2 {
+  position: relative;
+  left: 20px;
+}
+
+.top_bar {
+  position: relative;
+  top: 70px;
+  color: #666;
+  background-color: #f7f5ec;
+  width: 100%;
+  height: 60px;
+  text-align: left;
+}
+
+.top_bar_wrapper {
+  position: absolute;
+  font-size: 14px;
+  left: 200px;
+  font-weight: 200;
+  top: px;
+}
+
+.btn_1 {
+  position: absolute;
+
+  color: #1f7b76;
+  height: 50px;
+  width: 140px;
+  left: 1245px;
+  top: 3px;
+  bottom: 2px;
+  border-style: solid;
+  border-color: #1f7b76;
+  background-color: #1f7b76;
+  font-weight: bold;
+  font-size: 14px;
+  transform: scale3d(0.7, 1, 1);
+  opacity: 0.2;
+}
+.btn_1:hover {
+  position: absolute;
+  width: 130px;
+  border: solid 4px;
+  border-color: #1f7b76;
+  background-color: #69aa86;
+  color: white;
+  font-weight: bold;
+  font-size: 14px;
+  transform: scale3d(1.1, 1, 1);
+  transition: 0.4s;
+  z-index: 1;
+  opacity: 1;
+}
+
+.btn_2 {
+  position: absolute;
+  height: 40px;
+  width: 130px;
+  left: 1250px;
+  top: 7px;
+  border-style: solid;
+  border-color: #1f7b76;
+  color: #1f7b76;
+  font-weight: bold;
+  font-size: 14px;
+  transition: 0.3s;
+}
+.btn_2:hover {
+  position: absolute;
+  z-index: -1;
+}
+
+.wrapper_logo {
+  position: relative;
+  top: 90px;
+}
+
+.envato_info {
+  position: absolute;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 180px;
+  top: 140px;
+  left: 710px;
+  margin: 5px 5px 5px 5px;
+}
+
+.contact_text {
+  position: absolute;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 10px;
+  color: #666;
+  font-size: 13px;
+  top: 137px;
+  left: 720px;
+  padding-left: -10px;
+  width: 750px;
+  text-align: left;
+}
+
+.nav_bar {
+  position: fixed;
+  background-color: #f7f5ec;
+  width: 100%;
+  padding-top: 10px;
+  position: relative;
+  top: 100px;
+  height: 70px;
+}
+.nav_bar ul {
+  list-style: none;
+  margin: 0;
+}
+.nav_bar > ul > li {
+  position: relative;
+  float: left;
+  left: 135px;
+  opacity: 0.8;
+}
+.nav_bar ul li a {
+  text-decoration: none;
+  color: #000000;
+  padding: 15px 20px;
+  display: block;
+}
+
+.nav_bar ul li a:hover {
+  color: #1f7b76;
+}
+.nav_bar ul li a:active {
+  color: #1f7b76;
+}
+
+.search_bar {
+  position: absolute;
+  top: 22px;
+  left: 1400px;
+}
+
+.column {
+  position: absolute;
+  padding-top: 40px;
+  width: 1100px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-column-gap: 10px;
+  text-align: left;
+  left: -500px;
+  font-size: 14px;
+  display: none;
+  z-index: -1;
+}
+
+strong {
+  padding-left: 20px; 
+  left: 20px;
+}
+.nav_bar ul li:hover .column {
+  display: block;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.accomodation {
+  position: relative;
+  left: -20px;
+}
+
+.blog_list {
+  position: relative;
+  left: -70px;
+}
+
+.blog_list_content {
+  position: absolute;
+  text-align: left;
+  padding-left: 20px;
+  background-color: white;
+  width: 400px;
+  height: 200px;
+  top: 80px;
+  z-index: -1;
+  display: none;
+}
+.blog_list_content > li {
+  font-size: 14px;
+  padding: 15px 10px 10px 10px;
+}
+
+.blog_list:hover .blog_list_content {
+  display: block;
+}
+
+.Gallery {
+  position: relative;
+  left: -100px;
+ 
+  
+}
+.Gallery_list_items {
+  position: absolute;
+  left: 80px;
+  top:70px;
+  padding-top: 10px;
+  text-align: left;
+  background-color: white;
+  z-index: -1;
+  width: 300px;
+  height: 300px;
+  display:none;
+ 
+}
+.Gallery_list_items > li {
+  font-size: 14px;
+  padding: 15px 10px 10px 10px;
+}
+
+.Gallery:hover .Gallery_list_items{
+  display:block;
+}
+
+.Elements {
+  position: absolute;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  text-align: left;
+  left: -1020px;
+  top: 20px;
+  width: 1100px;
+  padding-top: 40px;
+  margin-top: 20px;
+  z-index:-1;
+  display:none;
+}
+
+.Element_list:hover > ul > li  {
+  display: block;
+  z-index:1;
+}
+.Element_list {
+  position: relative;
+  left: -100px;
+  
+}
+
+.Elements li {
+  position: relative;
+  margin-top: 15px;
+  padding-left: 20px;
+  left:20px;
+  color: #666;
+}
+
+.contact_list {
+  position: relative;
+  left: 10px;
+}
+
+
+
+.form{
+ width:50%;
+ position: absolute;
+ height:50px;
+display: none;
+
+}
+
+.form input{
+  width:100%;
+  height:100%;
+  padding-top:1px;
+  border:none;
+  outline:none;
+  font-size:40px;
+  color:grey;
+}
+
+.form label{
+  position:absolute;
+  bottom:0px;
+  left:0%;
+  height:100%;
+  width: 100%;
+  font-size:30px;
+  color:grey;
+  pointer-events: none;
+  border-bottom: 1px solid #375740;
+  letter-spacing: 10px;
+  font-family: 'poppins';
+
+}
+
+.form label::after{
+  content:" ";
+  position:absolute;
+  
+ 
+}
+
+.form.search_bar:hover{
+  display:block;
+  z-index: 1;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .preview_header {
+    background-color: #262626;
+    height: 70px;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+  }
+  .logo {
+    position: absolute;
+    left: 40px;
+  }
+  .envato_logo {
+    position: absolute;
+    top: 25px;
+    left: -20px;
+  }
+
+  .button {
+    position: absolute;
+
+    left: 400px;
+  }
+
+  .top_bar {
+    height: 130px;
+  }
+  .top_bar_wrapper {
+    top: 7px;
+    left: 180px;
+  }
+
+  .btn_1 {
+    top: 60px;
+    left: 195px;
+  }
+  .btn_2 {
+    top: 65px;
+    left: 200px;
+  }
+  .wrapper {
+    height: 50vh;
+  }
+
+  .wrapper_logo {
+    left: 30px;
+  }
+
+  .envato_info {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    top: 300px;
+    left: 10px;
+  }
+
+  .contact_text {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    top: 300px;
+    left: 60px;
+    text-align: left;
+  }
+
+  p.para1 {
+    position: relative;
+    left: 40px;
+    top: 0px;
+  }
+
+  p.para2 {
+    position: relative;
+    left: 40px;
+    top: 0px;
+  }
+  p.para3 {
+    position: relative;
+    left: 40px;
+    top: 0px;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+}
